@@ -1,0 +1,51 @@
+:root {
+    --f1: 6.854rem;
+    --f2: 4.236rem;
+    --f3: 2.618rem;
+    --f4: 1.618rem;
+    --f5: 1rem;
+    --f6: 0.618rem;
+    --f7: .75rem;
+
+    --lh-solid: 1;
+    --lh-title: 1.25;
+    --lh-copy: 1.6;
+
+    /*    
+    https://type-scale.com/
+    Play with the scales and put the values in the variables
+    */
+    
+}
+
+.f1 { font-size: var(--f1); }
+.f2 { font-size: var(--f2); }
+.f3 { font-size: var(--f3); }
+.f4 { font-size: var(--f4); }
+.f5 { font-size: var(--f5); }
+.f6 { font-size: var(--f6); }
+.f7 { font-size: var(--f7); }
+
+.lh-solid {line-height:var(--lh-solid);}
+.lh-title {line-height:var(--lh-title);}
+.lh-copy {line-height:var(--lh-copy);}
+
+.fw4 { font-weight: 400; }
+.fw5 { font-weight: 500; }
+.fw6 { font-weight: 600; }
+.fw7 { font-weight: 700; }
+
+.tl { text-align: left; }
+.tc { text-align: center; }
+.tr { text-align: right; }
+
+.measure {
+    max-width: 30rem;
+}
+
+@media (min-width:768px) {
+    .tl-md { text-align:left; }
+    .tc-md { text-align:center; }
+}
+
+

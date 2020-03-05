@@ -1,0 +1,14 @@
+@import "typography.css";
+@import "spacing.css";
+@import "margin.css";
+@import "padding.css";
+@import "flex.css";
+@import "grid.css";
+@import "width.css";
+@import "utility.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

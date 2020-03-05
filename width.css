@@ -1,0 +1,11 @@
+:root {
+    --mw-sm: 600px;
+    --mw-md: 768px;
+    --mw-lg: 1024px;
+    --mw-xl: 1280px;
+}
+
+.mw-sm {max-width:var(--mw-sm);}
+.mw-md {max-width:var(--mw-md);}
+.mw-lg {max-width:var(--mw-lg);}
+.mw-xl {max-width:var(--mw-xl);}
